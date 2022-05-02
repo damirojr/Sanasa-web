@@ -1,5 +1,5 @@
 body {  
-    
+    background-color: #56a5eb;
     font-size: 62.5%;
   }
   
@@ -45,40 +45,35 @@ body {
   }
   
   /* UTILITIES */
-  .bgvideo {
-    position: absolute;
+  #myVideo {
+    position: fixed;
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    width: 100vw;
-    height: 100vh;
     z-index: -100;
-    
   }
+
   .container {
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    max-width: 100rem;
-    margin: 0 auto;
-    padding: 2rem;
+    }
+
+  .header {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%;
   }
-  
-  .container > * {
-    width: 100%;
-  }
-  
-  .flex-column {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .flex-center {
-    justify-content: center;
-    align-items: center;
+
+  .box {
+    width: 750px;
+    height: 300px;
+    
   }
   
   .justify-center {
@@ -95,7 +90,8 @@ body {
   
   /* BUTTONS */
   .btn {
-  width: 100px;
+  width: 200px;
+  
   }
   
   
