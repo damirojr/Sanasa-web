@@ -1,0 +1,34 @@
+[
+  {
+    "question": "Já foi no bairro Itatinga?",
+    "choice1": "Sim",
+    "choice2": "Não",
+    "choice3": "Já ouvi Falar",
+    "choice4": "Minha prima é de lá",
+    "answer": 4 
+  },
+  {
+    "question": "Qual o nome da empresa de abastecimento de água de Campinas?",
+    "choice1": "Sanasa",
+    "choice2": "Emae",
+    "choice3": "Sonae",
+    "choice4": "Serasa",
+    "answer": 1
+  },
+  {
+    "question": "Pastel de feira?",
+    "choice1": "Pizza",
+    "choice2": "Frango",
+    "choice3": "Carne",
+    "choice4": "Queijo",
+    "answer": 3
+  },
+  {
+    "question": "Qual o preço do pedalinho do Taquaral?",
+    "choice1": "R$ 1.000,00",
+    "choice2": "5 reais;",
+    "choice3": "36 x R$ 939,00",
+    "choice4": "R$ 49,00",
+    "answer":2
+  }
+]
