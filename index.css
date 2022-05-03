@@ -1,0 +1,159 @@
+body {  
+    background-color: #56a5eb;
+    font-size: 62.5%;
+  }
+  
+  * {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  button {
+    display:block;
+}
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin-bottom: 1rem;
+  }
+  
+  h1 {
+    font-size: 5.4rem;
+    color: #ffffff;
+    margin-bottom: 5rem;
+    opacity: 100%;
+    text-align: center;
+    padding-top: 5%;
+  }
+  
+  h1 > span {
+    font-size: 2.4rem;
+    font-weight: 500;
+  }
+  
+  h2 {
+    font-size: 2.2rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    color: #ffffff;
+  }
+  h3 {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 0rem;
+    opacity: 100%;
+    text-align: center;
+  }
+  a {
+    padding: 25px;
+  }
+  /* UTILITIES */
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+  }
+
+  .container {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    }
+
+  .container2 {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+  }  
+  .header {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box {
+    width: 780px;
+    height: 300px;
+    
+  }
+  .box2 {
+    width: 150px; 
+  }
+  .box2 img {
+    width: 120px; 
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* BUTTONS */
+  .btn {
+  width: 200px;
+  
+  }
+  .footer {
+    align-items: center;
+    margin-left: auto;
+    margin-top: auto;
+  }
+  .footer img {
+    align-items: center;
+    width: 500px;
+  }
+  
+  /* EFEITO HOVER
+  .btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+  
+  .btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }
+  */
+  /* FORMS */
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input {
+    margin-bottom: 1rem;
+    width: 15rem;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  }
+  
+  input::placeholder {
+    color: rgb(243, 243, 243);
+  }
