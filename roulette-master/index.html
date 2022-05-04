@@ -6,7 +6,35 @@
     <style>
 
       body {
-      	
+      	background-image: url(img/background_roleta_sanasa_com_texto.jpg);
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      span {
+        font-size: 20px;
+        color: white;
+        padding-top: 50px;
+        padding-right: 25px;
+        text-align: center;
+      }
+
+      .touch {
+        display: flex;
+        justify-content: flex-end;
+      }
+      .btnTouch {
+        width: 150px;
+      
+      }      
+      .btnVoltar {
+        width: 100px;
+      }
+      .btnVoltar img {
+        width: 70px;
+        padding-top: 2em;
       }
 
     </style>
@@ -18,7 +46,17 @@
     <script src="raphael.js"></script>
     <script src="roulette.js"></script>
 
-    <input id="clickMe" type="submit" value="Rodar Roleta" onclick="spin()">
+    <div class="touch">
+      <img src="img/icon_touch_roleta.png" class="btnTouch" alt="Toque na tela" onclick="spin()">
+      <span><b>TOQUE AQUI</b><br>PARA JOGAR</span>
+      <div class="btnVoltar">
+        <a href="index.html"> <img src="img/icon_voltar_roleta.png" alt="Voltar"></a>
+        
+      </div>     
+      <span>
+        Voltar
+      </span>
+    </div>
 
 </body>
 </html>

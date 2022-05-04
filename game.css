@@ -1,3 +1,10 @@
+span {
+  font-size: 20px;
+  color: white;
+  padding-top: 50px;
+  padding-right: 25px;
+}
+
 .choice-container {
   display: flex;
   margin-bottom: 0.5rem;
@@ -16,13 +23,14 @@
 
 .choice-prefix {
   padding: 1.5rem 2.5rem;
-  background-color: #56a5eb;
+  background-color: #01ade8;
   color: white;
 }
 
 .choice-text {
   padding: 1.5rem;
   width: 100%;
+  color: black;
 }
 
 .correct {
@@ -32,16 +40,29 @@
 .incorrect {
   background-color: #dc3545;
 }
-
-.touch {
+.header {
+  width: 100vw;
   display: flex;
+  flex-direction: row;
+  justify-content: left;
 
 }
-.touch img {
-  align-items: center;
+.btnVoltar {
+  width: 100px;
+}
+.btnVoltar img {
+  width: 70px;
+  padding-top: 2em;
+}
+.touch {
+  display: flex;
+  justify-content: flex-end;
+}
+.btnTouch {
   width: 300px;
 
 }
+
 /* HUD */
 
 #hud {
@@ -68,7 +89,7 @@
 
 #progressBarFull {
   height: 3.4rem;
-  background-color: #56a5eb;
+  background-color: #01ade8;
   width: 0%;
 }
 

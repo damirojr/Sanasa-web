@@ -57,7 +57,7 @@ $(function() {
 	var init = function() {
 
 		$(document).keydown(function(evt) {
-		    if (evt.keyCode == 0) {
+		    if (evt.keyCode == 114) {
 				
 		    	spin();
 		    }
