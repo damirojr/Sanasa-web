@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+
+      body {
+      	background-image: url(img/background_roleta_sanasa_com_texto.jpg);
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      span {
+        font-size: 15px;
+        color: white;
+        padding-top: 50px;
+        padding-right: 25px;
+        text-align: center;
+      }
+      h1 {
+        font-size: 20px;
+        color: white;
+        padding-top: 40px;
+        padding-right: 25px;
+        text-align: center;
+      } 
+
+      .touch {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 40%;
+        position: relative;
+        z-index: 10000;
+
+      }
+      .btnTouch {
+        width: 100px;
+        height: 100px;
+      
+      }      
+      .btnVoltar {
+       
+      }
+      .btnVoltar img {
+        width: 70px;
+        padding-top: 1em;
+      }
+     /* .game {
+        position: fixed;
+        z-index: -1000000;
+      }*/
+
+    </style>
+</head>
+<body>
+
+    <main>
+      <div class="game">
+        <script src="jquery-1.6.4.js"></script>
+        <script src="raphael.js"></script>
+        <script src="roulette.js"></script>
+      </div>
+    </main>
+
+    <div class="touch">
+      <img src="img/icon_touch_roleta.png" class="btnTouch" alt="Toque na tela" onclick="spin()">
+      <span><b>TOQUE AQUI</b><br>PARA JOGAR</span>
+      <div class="btnVoltar">
+        <a href="../index.html"> <img src="img/icon_voltar_roleta.png" alt="Voltar"></a>       
+      </div>     
+      <h1>
+        Voltar
+      </h1>
+    </div>
+
+</body>
+</html>
