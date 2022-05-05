@@ -1,34 +1,194 @@
 [
   {
-    "question": "Já foi no bairro Itatinga?",
-    "choice1": "Sim",
-    "choice2": "Não",
-    "choice3": "Já ouvi Falar",
-    "choice4": "Minha prima é de lá",
-    "answer": 4 
+    "question": "Qual rio é a principal fonte de abastecimento de água na cidade de Campinas?",
+    "choice1": "Rio Amazonas",
+    "choice2": "Rio Nilo",
+    "choice3": "Rio Capivari",
+    "choice4": "Rio Atibaia",
+    "answer": 4
   },
   {
-    "question": "Qual o nome da empresa de abastecimento de água de Campinas?",
-    "choice1": "Sanasa",
-    "choice2": "Emae",
-    "choice3": "Sonae",
-    "choice4": "Serasa",
+    "question": "Quantas Estações de Tratamento de Água a Sanasa possui?",
+    "choice1": "5",
+    "choice2": "3",
+    "choice3": "50",
+    "choice4": "Nenhuma",
     "answer": 1
   },
   {
-    "question": "Pastel de feira?",
-    "choice1": "Pizza",
-    "choice2": "Frango",
-    "choice3": "Carne",
-    "choice4": "Queijo",
-    "answer": 3
+    "question": "Quantos litros de água tratada são distribuídos por segundo pela Sanasa?",
+    "choice1": "16.553.313 m³",
+    "choice2": "19.888.888 m³",
+    "choice3": "10.000.000 m³",
+    "choice4": "36.111.111 m³",
+    "answer": 1
   },
   {
-    "question": "Qual o preço do pedalinho do Taquaral?",
-    "choice1": "R$ 1.000,00",
-    "choice2": "5 reais;",
-    "choice3": "36 x R$ 939,00",
-    "choice4": "R$ 49,00",
+    "question": "Quantos anos a Sanasa tem?",
+    "choice1": "20",
+    "choice2": "47",
+    "choice3": "60",
+    "choice4": "40",
+    "answer":2
+  },
+  {
+    "question": "Qual a capacidade instalada de tratamento de esgoto Sanasa ?",
+    "choice1": "50%",
+    "choice2": "80%",
+    "choice3": "95%",
+    "choice4": "90%",
+    "answer":3
+  },
+  {
+    "question": "A distribuição domiciliar de água potável canalizada começou a operar em qual ano na cidade de Campinas?",
+    "choice1": "1500",
+    "choice2": "1891",
+    "choice3": "2002",
+    "choice4": "1990",
+    "answer":2
+  },
+  {
+    "question": "A Sanasa se destaca por ter um dos menores índices de perda de água do Brasil. Qual é ele?",
+    "choice1": "21,22%",
+    "choice2": "40,22%",
+    "choice3": "31,22%",
+    "choice4": "51,22%",
+    "answer":1
+  },
+  {
+    "question": "A água de reúso que a Sanasa produz pode ser utilizada para:",
+    "choice1": "Irrigação de jardins",
+    "choice2": "Construção civil",
+    "choice3": "Desobstrução de redes de esgoto",
+    "choice4": "Todas as alternativas",
+    "answer":4
+  },
+  {
+    "question": "Qual é o grau de pureza da água produzida por nossas Estações Produtoras de Água de Reúso - EPARs?",
+    "choice1": "50%",
+    "choice2": "30%",
+    "choice3": "99%",
+    "choice4": "15%",
+    "answer":3
+  },
+  {
+    "question": "Quantos quilômetros de rede de água têm na cidade de Campinas?",
+    "choice1": "4.771,75 km",
+    "choice2": "100,75 km",
+    "choice3": "20,75 km",
+    "choice4": "3,75 km",
+    "answer":1
+  },
+  {
+    "question": "O Museu da Água da Sanasa, possui 24 instalações que apresentam, de maneira lúdica e interativa, a água enquanto elemento garantidor da vida e do equilíbrio ambiental do planeta. Ele foi inaugurado em qual ano?",
+    "choice1": "2003",
+    "choice2": "2002",
+    "choice3": "2000",
+    "choice4": "2020",
+    "answer":4
+  },
+  {
+    "question": "Quantas estações de tratamento de esgoto são operadas pela Sanasa?",
+    "choice1": "21",
+    "choice2": "3",
+    "choice3": "50",
+    "choice4": "Nenhuma",
+    "answer":1
+  },
+  {
+    "question": "Quantas estações produtoras de água de reúso são operadas pela Sanasa?",
+    "choice1": "2",
+    "choice2": "3",
+    "choice3": "50",
+    "choice4": "Nenhuma",
+    "answer":1
+  },
+  {
+    "question": "Quantas Estações de captação de água bruta são operadas pela Sanasa?",
+    "choice1": "3",
+    "choice2": "2",
+    "choice3": "50",
+    "choice4": "Nenhuma",
+    "answer":2
+  },
+  {
+    "question": "Qual a porcentagem da população campineira atendida com água potável?",
+    "choice1": "99,83%",
+    "choice2": "50,33%",
+    "choice3": "40,65%",
+    "choice4": "80,00%",
+    "answer":1
+  },
+  {
+    "question": "Em que século foi implantado o sistema de coleta de esgoto em Campinas?",
+    "choice1": "Século XX",
+    "choice2": "Século IXX",
+    "choice3": "Século XXI",
+    "choice4": "Século XXII",
+    "answer":2
+  },
+  {
+    "question": "Em que ano a Sanasa implantou o Programa de Redução de Perdas de Água?",
+    "choice1": "1991",
+    "choice2": "1994",
+    "choice3": "2001",
+    "choice4": "2020",
+    "answer":2
+  },
+  {
+    "question": "Quantas Estações Elevatórias de Esgoto a Sanasa opera?",
+    "choice1": "115",
+    "choice2": "55",
+    "choice3": "3",
+    "choice4": "1.000",
+    "answer":2
+  },
+  {
+    "question": "A Sanasa capta água de quais rios?",
+    "choice1": "Rios Atibaia e Capivari",
+    "choice2": "Rios Nilo e Atibaia",
+    "choice3": "Rios Amazonas e Capivari",
+    "choice4": "Nenhuma das alternativas",
+    "answer":1
+  },
+  {
+    "question": "Quantas vezes consecutivas a Sanasa foi eleita pela revista Saneamento Ambiental, a maior e melhor empresa municipal de saneamento do Brasil",
+    "choice1": "4",
+    "choice2": "Nenhuma",
+    "choice3": "10",
+    "choice4": "11",
+    "answer":1
+  },
+  {
+    "question": "Qual a porcentagem de coleta e afastamento de esgoto que a Sanasa opera na cidade de Campinas?",
+    "choice1": "96,42%",
+    "choice2": "50,33%",
+    "choice3": "40,65%",
+    "choice4": "80,00%",
+    "answer":1
+  },
+  {
+    "question": "Quantas agências de atendimento ao público fixas e móveis a Sanasa possuí?",
+    "choice1": "13",
+    "choice2": "2",
+    "choice3": "25",
+    "choice4": "Nenhuma das alternativas",
+    "answer":1
+  },
+  {
+    "question": "Qual o nome do laboratório da nova fonte de luz síncroton brasileira, considerada a mais complexa infraestrutura científica já construída no país, instalado em Campinas? ",
+    "choice1": "Sirius",
+    "choice2": "CNPQ",
+    "choice3": "ITAL",
+    "choice4": "Nenhuma das alternativas",
+    "answer":1
+  },
+  {
+    "question": "Quantos anos a Sanasa tem?",
+    "choice1": "20",
+    "choice2": "47",
+    "choice3": "60",
+    "choice4": "40",
     "answer":2
   }
 ]

@@ -6,21 +6,21 @@ $(function() {
 	 *
 	 */
 	var prizes = [
-		"Caneca\nSanasa",
-		"Passeio\nBarco",
-		"Itatinga",
-		"Tente de\nNovo",
-		"Pedalinho\nTaquaral",
-		"Coxinha\nda Nico",
-		"Vinheta\n15s",
-		"Perdeu"];
+		"Brinde",
+		"Brinde",
+		"Brinde",
+		"Não foi\ndesta vez",
+		"Brinde",
+		"Brinde",
+		"Brinde",
+		"Não foi\ndesta vez",];
 
-	var scaleFactor = 0.17; // large decimal is bigger font
+	var scaleFactor = 0.15; // large decimal is bigger font
 	var fontColor = "#FFFFFF" // color of prize text
-	var color = ["#034ea1", "#00ade7", "#034ea1", "red"]; // alternating gaming peice colors
+	var color = ["#034ea1", "#00ade7", "#034ea1", "orange"]; // alternating gaming peice colors
 	var random = [744, 3478]; // [minimum number of rotations in degrees, max number of rotations]
 	var seconds = 8000;  // how long animation runs
-	var colorArrow = ["#000000", "#000000", 4]; // [fill color, border color, border width]
+	var colorArrow = ["#ffffff", "#ffffff", 4]; // [fill color, border color, border width]
 
 	/*
 	 *
@@ -53,11 +53,10 @@ $(function() {
 	};
 	
 
-
 	var init = function() {
-
+		let mouse = Event.mouse
 		$(document).keydown(function(evt) {
-		    if (evt.keyCode == 32) {
+		    if (evt.keyCode == 32 || evt.keypress == mouse) {
 				
 		    	spin();
 		    }
@@ -273,3 +272,19 @@ $(function() {
 	};
 
 });
+
+
+
+
+var presscount = 0;
+var sendEvery = 5000; //in milliseconds
+$(document).ready(function() {
+  $("#test").on("keypress", function(e) {
+    if (e.which == 32) {
+      presscount++;
+    }
+    $("#output").text("The space key was pressed " + presscount + " times");
+  });
+     setInterval(pressKey, sendEvery);  
+});
+

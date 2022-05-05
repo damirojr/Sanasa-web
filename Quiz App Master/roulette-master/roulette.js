@@ -52,15 +52,19 @@ $(function() {
 		y : h / 2
 	};
 	
-
+	function touchTela () {
+		var touchT = document.getElementById("spinn")
+		
+		if touchT 
+	}
 
 	var init = function() {
 
-		$(document).keydown(function(evt) {
-		    if (evt.keyCode == 0) {
+		$(document).getElementById(function(evt) {
+		    
 				
 		    	spin();
-		    }
+		    
 		});
 
 		$logo = $('#logo');
