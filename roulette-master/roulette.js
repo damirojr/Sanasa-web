@@ -54,12 +54,11 @@ $(function() {
 	
 
 	var init = function() {
-		let mouse = Event.mouse
-		$(document).keydown(function(evt) {
-		    if (evt.keyCode == 32 || evt.keypress == mouse) {
+		$(document).mousedown(function() {
+		   
 				
 		    	spin();
-		    }
+		    
 		});
 
 		$logo = $('#logo');
